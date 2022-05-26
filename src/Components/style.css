@@ -1,0 +1,35 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.app-wrap {
+  background: lightblue;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 2px solid black;
+}
+.app-heading {
+  text-align: left;
+  font-size: 35px;
+}
+.app-wrap-inside {
+  background: white;
+  border: 2px solid black;
+  padding: 20px;
+}
+.todo-input {
+  padding: 10px;
+  margin: 20px 0px;
+  border-radius: 5px;
+  border: 1px solid grey;
+}
+.todo-add-btn {
+  padding: 10px;
+  margin: 0px 10px;
+  border-radius: 5px;
+  border: 1px solid grey;
+}
